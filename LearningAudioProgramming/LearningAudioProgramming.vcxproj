@@ -87,6 +87,7 @@
     <ClCompile Include="audioobject.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sampleinfo.cpp" />
+    <ClCompile Include="SDL\sdlaudiocontext.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="audioobject.h" />
@@ -94,6 +95,7 @@
     <ClInclude Include="iaudiodata.h" />
     <ClInclude Include="iaudiodevice.h" />
     <ClInclude Include="sampleinfo.h" />
+    <ClInclude Include="SDL\sdlaudiocontext.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
